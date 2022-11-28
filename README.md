@@ -18,8 +18,6 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# Project Name
-
 # 📖 [Math Magician] <a name="about-project"></a>
 
 > "Math magicians" is a basic calculator website made using react for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
@@ -67,7 +65,7 @@ Clone this repository to your desired folder:
   git clone git@github.com:myaccount/my-project.git
 ```
 
-## Install Dependencies(with following Command)
+## Install
 
 ```sh
  npm install --save -dev

@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# 📗 Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-## Available Scripts
+# 📖 [Math Magician] <a name="about-project"></a>
 
-In the project directory, you can run:
+> "Math magicians" is a basic calculator website made using react for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-### `npm start`
+Make simple calculations, performs all math's basic functions, add, subtract, multiply and divide.
+Read a random math-related quote using API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Built With <a name="built-with"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-### `npm test`
+### Key Features <a name="key-features"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **[Read Math Quotes]**
+- **[Basic Calculator]**
 
-### `npm run build`
+## 🚀 Live Demo <a name="live-demo"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Click here to see the [Live Demo](https://636d4335ca433e14cbbda6f5--lovely-frangipane-389b3a.netlify.app/) of the website 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 Getting Started <a name="getting-started"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+In order to run this project you need:
+- Vistual Studio Code
+- Browser (Firefox / Google Chrome)
+- Node.js (v6.11.2+)
+- linters
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone this repository to your desired folder:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
 
-## Learn More
+## Install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+ npm install --save -dev
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Start server
 
-### Code Splitting
+``` npm start ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## To test the app run following command
 
-### Analyzing the Bundle Size
+``` npm test ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Usage
 
-### Making a Progressive Web App
+Make simple calculations and read a random math-related quote.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👥 Authors <a name="authors"></a>
 
-### Advanced Configuration
+- GitHub: [@shella12](https://github.com/shella12)
+- Twitter: [@Ayesha Arshad](https://twitter.com/AyeshaA03712974)
+- LinkedIn: [Ayesha Arshad](https://www.linkedin.com/in/ayesha-arshad-a690a015a/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing <a name="contributing"></a>
 
-### Deployment
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feel free to check the [issues page](../../issues/).
 
-### `npm run build` fails to minify
+## ⭐️ Show your support <a name="support"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!
+
+## ❓ FAQ <a name="faq"></a>
+
+- **[Why use this app?]**
+
+  - [To read cool new quotes about maths everyday and also use the online calculator]
+
+- **[Why build this app?]**
+
+  - [Its a good app to learn building with react as a begainner]
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://github.com/shella12/mathmagi.github.io/blob/dev/LICENSE.md) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

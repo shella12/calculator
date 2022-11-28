@@ -17,6 +17,11 @@ Read a random math-related quote using API.
 - Jest
 - RESTFUL APIs
 
+## Features
+
+- Read Math Quotes
+- Basic Calculations
+
 ### Prerequisites
 
 - Vistual Studio Code

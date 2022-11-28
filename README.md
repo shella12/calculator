@@ -73,11 +73,11 @@ Clone this repository to your desired folder:
 
 ## Start server
 
-- npm start
+``` npm start ```
 
 ## To test the app run following command
 
-- npm test
+``` npm test ```
 
 ### Usage
 

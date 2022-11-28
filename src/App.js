@@ -1,9 +1,9 @@
-import Calculator from "./component/calculator";
+import Calculator from './component/calculator';
 
 function App() {
   return (
-    <div className="App" >
-      <Calculator/>
+    <div className="App">
+      <Calculator />
     </div>
   );
 }

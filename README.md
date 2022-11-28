@@ -69,11 +69,9 @@ Clone this repository to your desired folder:
 
 ## Install Dependencies(with following Command)
 
-- npm install --save -dev
-
-## Build webpack
-
-- run command npm run build
+```sh
+ npm install --save -dev
+```
 
 ## Start server
 

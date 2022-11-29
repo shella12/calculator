@@ -5,3 +5,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.calculator {
+  display: flex;
+  margin: 16px 20%;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.calculator .panel {
+  text-align: end;
+  background-color: gray;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.calcBtn {
+  background-color: lightgray;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.zero {
+  grid-column: 1/span 2;
+}

@@ -6,7 +6,7 @@ class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: '',
+      total: '0',
       next: '',
       operation: '',
     };
@@ -17,6 +17,9 @@ onKeyPressedHandler = (value) => {
   const { total, next, operation } = this.state;
   const obj = { total, next, operation };
   const result = calculate(obj, value);
+  if (value === 'AC') {
+    result.total = '0';
+  }
   this.setState({
     total: result.total,
     next: result.next,

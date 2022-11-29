@@ -1,6 +1,7 @@
 import React from 'react';
 import calculate from '../logic/calculate';
 import Layout from './layout';
+import Panel from './panel';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -31,11 +32,7 @@ render() {
   const { total, next, operation } = this.state;
   return (
     <div className="calculator">
-      <div className="panel">
-        {total}
-        {operation}
-        {next}
-      </div>
+      <Panel total={total} next={next} operation={operation} />
       <Layout keyPressedHandler={this.onKeyPressedHandler} />
     </div>
   );

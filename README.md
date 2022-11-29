@@ -22,8 +22,8 @@
 
 > "Math magicians" is a basic calculator website made using react for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-Make simple calculations, performs all math's basic functions, add, subtract, multiply and divide.
-Read a random math-related quote using API.
+> - Make simple calculations, performs all math's basic functions, add, subtract, multiply and divide.
+> - Read a random math-related quote using API.
 
 ## 🛠 Built With <a name="built-with"></a>
 

@@ -1,41 +1,42 @@
 import React from 'react';
+import calculate from '../logic/calculate';
+import Layout from './layout';
+import Panel from './panel';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: '0',
+      next: '',
+      operation: '',
+    };
+    this.onKeyPressedHandler = this.onKeyPressedHandler.bind(this);
   }
 
-  render() {
-    return (
-      <div>
-        <div className="calculator">
-          <div className="panel">0</div>
-          <div className="buttons">
-            <button type="button" className="calcBtn" value="AC">AC</button>
-            <button type="button" className="calcBtn" value="+/-">+/-</button>
-            <button type="button" className="calcBtn" value="%">%</button>
-            <button type="button" className="calcBtn orange" value="÷">÷</button>
-            <button type="button" className="calcBtn" value="7">7</button>
-            <button type="button" className="calcBtn" value="8">8</button>
-            <button type="button" className="calcBtn" value="9">9</button>
-            <button type="button" className="calcBtn orange" value="x">x</button>
-            <button type="button" className="calcBtn" value="4">4</button>
-            <button type="button" className="calcBtn" value="5">5</button>
-            <button type="button" className="calcBtn" value="6">6</button>
-            <button type="button" className="calcBtn orange" value="-">-</button>
-            <button type="button" className="calcBtn" value="1">1</button>
-            <button type="button" className="calcBtn" value="2">2</button>
-            <button type="button" className="calcBtn" value="3">3</button>
-            <button type="button" className="calcBtn orange" value="+">+</button>
-            <button type="button" className="calcBtn zero" value="0">0</button>
-            <button type="button" className="calcBtn" value=".">.</button>
-            <button type="button" className="calcBtn orange" value="=">=</button>
-          </div>
-        </div>
-      </div>
-    );
+onKeyPressedHandler = (value) => {
+  const { total, next, operation } = this.state;
+  const obj = { total, next, operation };
+  const result = calculate(obj, value);
+  if (value === 'AC') {
+    result.total = '0';
   }
+  this.setState({
+    total: result.total,
+    next: result.next,
+    operation: result.operation,
+  });
+}
+
+render() {
+  const { total, next, operation } = this.state;
+  return (
+    <div className="calculator">
+      <Panel total={total} next={next} operation={operation} />
+      <Layout keyPressedHandler={this.onKeyPressedHandler} />
+    </div>
+  );
+}
 }
 
 export default Calculator;

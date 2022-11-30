@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Layout = (props) => {
+const CalcButton = (props) => {
   const keyPressedHandler = (event) => {
     const { keyPressedHandler } = props;
     keyPressedHandler(event.target.value);
@@ -31,8 +31,8 @@ const Layout = (props) => {
   );
 };
 
-Layout.propTypes = {
+CalcButton.propTypes = {
   keyPressedHandler: PropTypes.func.isRequired,
 };
 
-export default Layout;
+export default CalcButton;

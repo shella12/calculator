@@ -6,11 +6,55 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.links {
+  font-size: 1.2rem;
+}
+
+.navbar .links:nth-child(2) {
+  border: 3px solid black;
+  padding: 0 4px;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.home {
+  padding: 2rem;
+}
+
+.para {
+  margin-top: 2rem;
+  text-align: justify;
+}
+
 .calculator {
   display: flex;
-  margin: 16px 20%;
   flex-direction: column;
   border: 1px solid black;
+  width: 50%;
+}
+
+.calc-layout {
+  display: flex;
+  padding: 3rem;
+  justify-content: space-between;
 }
 
 .calculator .panel {
@@ -37,4 +81,15 @@
 
 .zero {
   grid-column: 1/span 2;
+}
+
+.quotes {
+  margin: 8rem 4rem;
+}
+
+blockquote {
+  font-size: 1.9rem;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px;
 }

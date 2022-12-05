@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import Layout from './layout';
+import CalcButton from './calcButton';
 import Panel from './panel';
 
 const Calculator = () => {
@@ -19,9 +19,12 @@ const Calculator = () => {
     setOperation(result.operation);
   };
   return (
-    <div className="calculator">
-      <Panel total={total} next={next} operation={operation} />
-      <Layout keyPressedHandler={onKeyPressedHandler} />
+    <div className="calc-layout">
+      <h2 className="heading">Let&apos;s do some Maths!</h2>
+      <div className="calculator">
+        <Panel total={total} next={next} operation={operation} />
+        <CalcButton keyPressedHandler={onKeyPressedHandler} />
+      </div>
     </div>
   );
 };

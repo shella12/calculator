@@ -1,0 +1,566 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test suite for components renders correctly calculator component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="calc-layout"
+      >
+        <h2
+          class="heading"
+        >
+          Let's do some Maths!
+        </h2>
+        <div
+          class="calculator"
+        >
+          <div
+            class="panel"
+          >
+            0
+          </div>
+          <div
+            class="buttons"
+          >
+            <button
+              class="calcBtn"
+              type="button"
+              value="AC"
+            >
+              AC
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="+/-"
+            >
+              +/-
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="%"
+            >
+              %
+            </button>
+            <button
+              class="calcBtn orange"
+              type="button"
+              value="÷"
+            >
+              ÷
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="7"
+            >
+              7
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="8"
+            >
+              8
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="9"
+            >
+              9
+            </button>
+            <button
+              class="calcBtn orange"
+              type="button"
+              value="x"
+            >
+              x
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="4"
+            >
+              4
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="5"
+            >
+              5
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="6"
+            >
+              6
+            </button>
+            <button
+              class="calcBtn orange"
+              type="button"
+              value="-"
+            >
+              -
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="1"
+            >
+              1
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="2"
+            >
+              2
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="3"
+            >
+              3
+            </button>
+            <button
+              class="calcBtn orange"
+              type="button"
+              value="+"
+            >
+              +
+            </button>
+            <button
+              class="calcBtn zero"
+              type="button"
+              value="0"
+            >
+              0
+            </button>
+            <button
+              class="calcBtn"
+              type="button"
+              value="."
+            >
+              .
+            </button>
+            <button
+              class="calcBtn orange"
+              type="button"
+              value="="
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="calc-layout"
+    >
+      <h2
+        class="heading"
+      >
+        Let's do some Maths!
+      </h2>
+      <div
+        class="calculator"
+      >
+        <div
+          class="panel"
+        >
+          0
+        </div>
+        <div
+          class="buttons"
+        >
+          <button
+            class="calcBtn"
+            type="button"
+            value="AC"
+          >
+            AC
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="+/-"
+          >
+            +/-
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="%"
+          >
+            %
+          </button>
+          <button
+            class="calcBtn orange"
+            type="button"
+            value="÷"
+          >
+            ÷
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="7"
+          >
+            7
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="8"
+          >
+            8
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="9"
+          >
+            9
+          </button>
+          <button
+            class="calcBtn orange"
+            type="button"
+            value="x"
+          >
+            x
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="4"
+          >
+            4
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="5"
+          >
+            5
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="6"
+          >
+            6
+          </button>
+          <button
+            class="calcBtn orange"
+            type="button"
+            value="-"
+          >
+            -
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="1"
+          >
+            1
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="2"
+          >
+            2
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="3"
+          >
+            3
+          </button>
+          <button
+            class="calcBtn orange"
+            type="button"
+            value="+"
+          >
+            +
+          </button>
+          <button
+            class="calcBtn zero"
+            type="button"
+            value="0"
+          >
+            0
+          </button>
+          <button
+            class="calcBtn"
+            type="button"
+            value="."
+          >
+            .
+          </button>
+          <button
+            class="calcBtn orange"
+            type="button"
+            value="="
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test suite for components renders correctly home component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home"
+      >
+        <h2
+          class="heading"
+        >
+          Welcome to our page!
+        </h2>
+        <p
+          class="para"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!
+        </p>
+        <p
+          class="para"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home"
+    >
+      <h2
+        class="heading"
+      >
+        Welcome to our page!
+      </h2>
+      <p
+        class="para"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!
+      </p>
+      <p
+        class="para"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test suite for components renders correctly quote component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="quotes"
+      >
+        <blockquote
+          cite="https://random-math-quote-api.herokuapp.com/"
+        >
+          Wherever there is number, there is beauty.-- Proclus
+        </blockquote>
+        <blockquote
+          cite="https://random-math-quote-api.herokuapp.com/"
+        >
+          Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.-- William Paul Thurston
+        </blockquote>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="quotes"
+    >
+      <blockquote
+        cite="https://random-math-quote-api.herokuapp.com/"
+      >
+        Wherever there is number, there is beauty.-- Proclus
+      </blockquote>
+      <blockquote
+        cite="https://random-math-quote-api.herokuapp.com/"
+      >
+        Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.-- William Paul Thurston
+      </blockquote>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

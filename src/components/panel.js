@@ -12,9 +12,13 @@ const Panel = (props) => {
 };
 
 Panel.propTypes = {
-  total: PropTypes.string.isRequired,
-  next: PropTypes.string.isRequired,
-  operation: PropTypes.string.isRequired,
+  total: PropTypes.string,
+  next: PropTypes.string,
+  operation: PropTypes.string,
 };
-
+Panel.defaultProps = {
+  total: '',
+  next: '',
+  operation: '',
+};
 export default Panel;

@@ -41,7 +41,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click here to see the [Live Demo](https://mathmagician.onrender.com) of the website 
+Click here to see the [Live Demo](https://lovely-frangipane-389b3a.netlify.app/calculator) of the website 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
